@@ -32,6 +32,9 @@ local plugins = {
 	-- Status line
 	{ "nvim-lualine/lualine.nvim" },
 
+	-- Colorizer
+	{ "norcalli/nvim-colorizer.lua" },
+
 	-- Treesitter
 	{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
 
