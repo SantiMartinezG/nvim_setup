@@ -85,8 +85,18 @@ local plugins = {
 	{ "mfussenegger/nvim-dap" },
 	{ "rcarriga/nvim-dap-ui" },
 
-	-- Toggle Terminal
-	{ "akinsho/toggleterm.nvim" },
+	{
+		"nvimdev/lspsaga.nvim",
+		event = "LspAttach",
+		config = function()
+			require("lspsaga").setup({
+				ui = {
+					border = "rounded",
+					code_action = "",
+				},
+			})
+		end,
+	},
 
 	-- Formatting
 	{ "stevearc/conform.nvim" },
