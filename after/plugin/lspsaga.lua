@@ -34,9 +34,6 @@ vim.api.nvim_set_keymap("n", "<leader>ot", "<cmd>Lspsaga term_toggle<CR>", { nor
 -- Hover
 vim.api.nvim_set_keymap("n", "<leader>hk", "<cmd>Lspsaga hover_doc<CR>", { noremap = true, silent = true })
 
--- Implement
-vim.api.nvim_set_keymap("n", "<leader>fi", "<cmd>Lspsaga finder<CR>", { noremap = true, silent = true })
-
 -- Outline
 vim.api.nvim_set_keymap("n", "<leader>oo", "<cmd>Lspsaga outline<CR>", { noremap = true, silent = true })
 
