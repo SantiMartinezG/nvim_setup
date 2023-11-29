@@ -64,14 +64,14 @@ opt.isfname:append("@-@")
 vim.loader.enable()
 
 -- split panels
-vim.api.nvim_set_keymap("n", "<leader>vv", ":vsplit<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<leader>ss", ":split<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-v>", ":vsplit<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-d>", ":split<CR>", { noremap = true, silent = true })
 
 -- navigation between panels
-vim.api.nvim_set_keymap("n", "<leader>hh", "<C-w>h", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<leader>jj", "<C-w>j", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<leader>kk", "<C-w>k", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<leader>ll", "<C-w>l", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-h>", "<C-w>h", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-j>", "<C-w>j", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-k>", "<C-w>k", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-l>", "<C-w>l", { noremap = true, silent = true })
 
 -- close panel
-vim.api.nvim_set_keymap("n", "<leader>px", ":q<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-x>", ":q<CR>", { noremap = true, silent = true })
