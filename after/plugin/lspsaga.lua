@@ -29,7 +29,7 @@ vim.diagnostic.config({
 vim.api.nvim_set_keymap("n", "<leader>ff", "<cmd>Lspsaga finder<CR>", { noremap = true, silent = true })
 
 -- Terminal toggle
-vim.api.nvim_set_keymap("n", "<C-t>", "<cmd>Lspsaga term_toggle<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-\\>", "<cmd>Lspsaga term_toggle<CR>", { noremap = true, silent = true })
 
 -- Hover
 vim.api.nvim_set_keymap("n", "<leader>hk", "<cmd>Lspsaga hover_doc<CR>", { noremap = true, silent = true })
