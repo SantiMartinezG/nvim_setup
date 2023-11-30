@@ -41,6 +41,9 @@ local plugins = {
 	-- Harpoon
 	{ "theprimeagen/harpoon" },
 
+	-- Live Server
+	{ "barrett-ruth/live-server.nvim", build = "npm install -g live-server", config = true },
+
 	-- UndoTree
 	{ "mbbill/undotree" },
 
